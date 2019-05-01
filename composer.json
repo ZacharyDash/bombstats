@@ -1,0 +1,9 @@
+{
+    "name": "root/bot",
+    "type": "project",
+    "require": {
+        "irazasyed/telegram-bot-sdk": "dev-develop",
+        "j7mbo/twitter-api-php": "^1.0",
+        "madmis/coingecko-api": "1.0.*"
+    }
+}
