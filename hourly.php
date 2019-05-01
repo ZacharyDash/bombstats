@@ -36,7 +36,7 @@ $twitterAPI = new TwitterAPIExchange($twitterSettings);
 $twitterAPIUrl = 'https://api.twitter.com/1.1/statuses/update.json';
 
 // telegram bot API
-$telegram = new Api('688653375:AAGPI0J_ghelUDMUvgU7QxNuNd2EaR2Q4FY');
+$telegram = new Api('834042455:AAHScBKPmpTVUJEZv6plj3LoJYgme2hbN98');
 
 // get data from etherscan
 $queryParams = [
