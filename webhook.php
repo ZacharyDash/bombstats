@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 use Telegram\Bot\Api;
 use Telegram\Bot\FileUpload\InputFile;
 
-$telegram = new Api('688653375:AAGPI0J_ghelUDMUvgU7QxNuNd2EaR2Q4FY');
+$telegram = new Api('834042455:AAHScBKPmpTVUJEZv6plj3LoJYgme2hbN98');
 
 $updates = $telegram->getWebhookUpdates();
 $chat_id =  $updates->getMessage()->getChat()->getId();
